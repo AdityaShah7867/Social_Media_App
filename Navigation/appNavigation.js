@@ -7,6 +7,7 @@ import { getItem } from '../utils/asyncStorage.js';
 import Navbar from '../Components/Navbar.jsx';
 import Bottombar from '../Components/Bottombar.jsx';
 import Friends from '../screens/Friends.jsx';
+import Post from '../screens/Post.jsx';
 const Stack = createNativeStackNavigator();
 export default function AppNavigation() {
   const [showOnboarding, setShowOnboarding] = useState(null);
@@ -46,6 +47,7 @@ export default function AppNavigation() {
           <Stack.Screen name="Home" options={{headerShown: false}} component={HomeScreen} />
           <Stack.Screen name="Onboarding" options={{headerShown: false}} component={OnboardingScreen} />
           <Stack.Screen name="Friends" options={{headerShown: false}} component={Friends} />
+          <Stack.Screen name="Post" options={{headerShown: false}} component={Post} />
         </Stack.Navigator>
         <Bottombar/>
       </NavigationContainer>
