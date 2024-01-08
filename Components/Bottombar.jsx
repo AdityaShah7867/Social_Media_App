@@ -27,7 +27,7 @@ const Bottombar = () => {
         <Text>Post</Text>
       </TouchableOpacity>
 
-      <TouchableOpacity style={styles.button} onPress={() => navigateToScreen('Notification')}>
+      <TouchableOpacity style={styles.button} onPress={() => navigateToScreen('Updates')}>
         <Ionicons name="notifications-outline" size={24} color="black" />
         <Text>Update</Text>
       </TouchableOpacity>

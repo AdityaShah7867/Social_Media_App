@@ -32,8 +32,8 @@ export default function OnboardingScreen() {
               />
               </View>
             ),
-            title: "Welcome To NoteShare ",
-            subtitle: "Your digital Study Buddy",
+            title: "Welcome To My Media ",
+            subtitle: "Your Social Media Partner",
           },
           {
             backgroundColor: "#fef3c7",
@@ -46,7 +46,7 @@ export default function OnboardingScreen() {
               </View>
             ),
             title: "Experiment and Learn",
-            subtitle: "All in one app for your notes,books entertainment and much more",
+            subtitle: "All in one app for your Posts, Jobs, entertainment and much more",
           },
           {
             backgroundColor: "#a78bfa",
@@ -59,7 +59,7 @@ export default function OnboardingScreen() {
               </View>
             ),
             title:"ALL CHECKS DONE ",
-            subtitle: "YOU ARE READY TO ENTER DIGITAL ERA OF LEARNING",
+            subtitle: "YOU ARE READY TO ENTER DIGITAL ERA OF COMMUNICATION AND CREATION",
           },
         ]}
       />
